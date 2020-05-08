@@ -3,7 +3,7 @@ import React from "react";
 function Body() {
 	return (
 		<main>
-			Body
+			<h2>&lt;Body&gt;</h2>
 		</main>
 	);
 }
