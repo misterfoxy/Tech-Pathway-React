@@ -15,6 +15,14 @@
 	padding: 0 2rem;
 	box-sizing: border-box;
 }
+
+main {
+	margin-top: 2.5rem !important;
+}
+
+main.additional-padding {
+	margin-top: 8.5rem !important;
+}
   
 /* Larger phones (portrait) and smaller phones (landscape) */
 @media (max-width: 550px) {
@@ -125,12 +133,12 @@ p {
  * Links
  * ----------------------------------------------- */
 a {
-	color: #1976d2;
+	color: #2f83d6;
 	text-decoration: none;
 }
 
 a:hover, a:active {
-	color: #0056b3;
+	color: #2568ab;
 	text-decoration: underline;
 }
 
