@@ -12,6 +12,24 @@ nav h1 {
 	margin-bottom: 0;
 }
 
+nav h1 button {
+	height: inherit;
+	padding: inherit;
+	color: #fff;
+	text-align: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	letter-spacing: inherit;
+	text-transform: inherit;
+	border-radius: 0;
+	border: 0;
+}
+
+nav h1 button:hover, nav h1 button:focus {
+	color: #efefef;
+}
+
 nav ul {
 	justify-content: flex-end;
 }

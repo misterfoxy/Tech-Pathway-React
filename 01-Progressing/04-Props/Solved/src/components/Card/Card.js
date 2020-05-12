@@ -10,8 +10,8 @@ function Card(props) {
 			</a>
 			<p>{props.desc}</p>
 			<ul>
-				<li><a href={props.deployed}>Deployed</a></li>
-				<li><a href={props.github}>GitHub</a></li>
+				<li><button onClick={() => props.handleClick(props.deployed)}>Deployed</button></li>
+				<li><button onClick={() => props.handleClick(props.github)}>GitHub</button></li>
 			</ul>
 		</section>
 	);
