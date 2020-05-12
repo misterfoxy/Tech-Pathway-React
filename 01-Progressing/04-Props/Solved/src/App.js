@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-import Portfolio from "./components/Portfolio";
+import Body from "./components/Body";
 import Footer from "./components/Footer";
 import "./main.css";
 
@@ -9,9 +9,7 @@ function App() {
 		<>
 			<Header />
 			<main className="container additional-padding">
-				{/* <About /> */}
-				<Portfolio />
-				{/* <Contact /> */}
+				<Body />
 			</main>
 			<Footer />
 		</>

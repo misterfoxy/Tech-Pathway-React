@@ -1,0 +1,10 @@
+.projects {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.projects .card {
+	width: 33.33%;
+	margin-bottom: 2.5em;
+}
