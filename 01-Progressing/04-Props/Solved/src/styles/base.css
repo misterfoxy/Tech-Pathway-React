@@ -15,21 +15,6 @@
 	padding: 0 2rem;
 	box-sizing: border-box;
 }
-  
-/* Larger phones (portrait) and smaller phones (landscape) */
-@media (max-width: 550px) {
-	.container {
-		width: 80%;
-	}
-}
-  
-/* Smaller phones (portrait) */
-@media (max-width: 400px) {
-	.container {
-		width: 85%;
-		padding: 0;
-	}
-}
 
 /* -----------------------------------------------
  * Typography
@@ -228,34 +213,20 @@ a:hover, a:active {
 	margin-left: .5rem;
 	font-weight: normal; }  
 
-
-/* Page Specific */
-.projects {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
-
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
 
-/* Smaller phones (portrait) */
-@media (max-width: 400px) {}
-
-/* Larger phones (portrait) and smaller phones (landscape) */
-@media (max-width: 550px) {}
-
-/* Tablets (portrait) and larger phones (landscape) */
-@media (max-width: 750px) {}
+/* Larger displays */
+@media (max-width: 1200px) {}
 
 /* Desktop and tablets (landscape) */
 @media (max-width: 1000px) {}
 
-/* Larger displays */
-@media (max-width: 1200px) {}
+/* Tablets (portrait) and larger phones (landscape) */
+@media (max-width: 768px) {}
+
+/* Larger phones (portrait) and smaller phones (landscape) */
+@media (max-width: 567px) {}
+
+/* Smaller phones (portrait) */
+@media (max-width: 400px) {}

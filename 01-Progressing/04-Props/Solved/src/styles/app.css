@@ -28,3 +28,10 @@ main .portfolio .projects {
 main .about, main .contact {
 	margin-bottom: 4.5rem;
 }
+
+/* Desktop and tablets (landscape) */
+@media (max-width: 1000px) {
+	main .portfolio .projects {
+		justify-content: space-around;
+	}
+}
