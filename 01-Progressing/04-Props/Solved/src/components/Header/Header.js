@@ -2,10 +2,10 @@ import React from "react";
 import Nav from "../Nav";
 import "./header.css";
 
-function Header() {
+function Header({ handleLink }) {
 	return (
 		<header className="fixed">
-			<Nav />
+			<Nav handleLink={handleLink} />
 		</header>
 	);
 }

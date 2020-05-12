@@ -6,23 +6,23 @@ import "./styles/base.css";
 import "./styles/app.css";
 
 function App() {
-	const handleClick = link => {
+	const handleLink = link => {
 		window.open(link, "_blank");
 	}
 
 	return (
 		<>
-			<Header />
+			<Header handleLink={handleLink} />
 			<main className="container additional-padding">
 				<section className="portfolio">
 					<h3>Portfolio</h3>
 					<section className="projects">
-						<Card title="Project 1" github="https://github.com/misterfoxy/Tech-Pathway-React" deployed="#" image="https://via.placeholder.com/300" desc="lorem ipsum" handleClick={handleClick} />
-						<Card title="Project 2" github="#" deployed="#" image="https://via.placeholder.com/300" desc="lorem ipsum" handleClick={handleClick} />
-						<Card title="Project 3" github="#" deployed="#" image="https://via.placeholder.com/300" desc="lorem ipsum" handleClick={handleClick} />
-						<Card title="Homework 1" github="#" deployed="#" image="https://via.placeholder.com/300" desc="lorem ipsum" handleClick={handleClick} />
-						<Card title="Homework 2" github="#" deployed="#" image="https://via.placeholder.com/300" desc="lorem ipsum" handleClick={handleClick} />
-						<Card title="Homework 3" github="#" deployed="#" image="https://via.placeholder.com/300" desc="lorem ipsum" handleClick={handleClick} />
+						<Card title="Project 1" github="https://github.com/misterfoxy/Tech-Pathway-React" deployed="#" image="https://via.placeholder.com/300" desc="lorem ipsum" handleLink={handleLink} />
+						<Card title="Project 2" github="#" deployed="#" image="https://via.placeholder.com/300" desc="lorem ipsum" handleLink={handleLink} />
+						<Card title="Project 3" github="#" deployed="#" image="https://via.placeholder.com/300" desc="lorem ipsum" handleLink={handleLink} />
+						<Card title="Homework 1" github="#" deployed="#" image="https://via.placeholder.com/300" desc="lorem ipsum" handleLink={handleLink} />
+						<Card title="Homework 2" github="#" deployed="#" image="https://via.placeholder.com/300" desc="lorem ipsum" handleLink={handleLink} />
+						<Card title="Homework 3" github="#" deployed="#" image="https://via.placeholder.com/300" desc="lorem ipsum" handleLink={handleLink} />
 					</section>
 				</section>
 				<section className="about">
