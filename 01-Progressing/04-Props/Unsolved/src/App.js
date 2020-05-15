@@ -6,6 +6,7 @@ import "./styles/base.css";
 import "./styles/app.css";
 
 function App() {
+
 	const handleLink = link => {
 		window.open(link, "_blank");
 	}
@@ -13,18 +14,18 @@ function App() {
 	return (
 		<>
 			{/* TODO: Add handleLink props to Header */}
-			<Header resume="https://google.com/" github="https://github.com/" linkedin="https://linkedin.com/" />
+			<Header handleLink={handleLink} resume="https://google.com/" github="https://github.com/" linkedin="https://linkedin.com/" />
 			<main className="container additional-padding">
 				<section className="portfolio">
 					<h3>Portfolio</h3>
 					<section className="projects">
 						{/* TODO: Add handleLink props to each Card */}
-						<Card title="Project 1" github="https://github.com/reactjs" deployed="https://reactjs.org/" desc="lorem ipsum 1" />
-						<Card title="Project 2" github="https://github.com/reactjs" deployed="https://reactjs.org/" desc="lorem ipsum 2" />
-						<Card title="Project 3" github="https://github.com/reactjs" deployed="https://reactjs.org/" desc="lorem ipsum 3" />
-						<Card title="Homework 1" github="https://github.com/reactjs" deployed="https://reactjs.org/" desc="lorem ipsum 4" />
-						<Card title="Homework 2" github="https://github.com/reactjs" deployed="https://reactjs.org/" desc="lorem ipsum 5" />
-						<Card title="Homework 3" github="https://github.com/reactjs" deployed="https://reactjs.org/" desc="lorem ipsum 6" />
+						<Card handleLink={handleLink} title="Project 1" github="https://github.com/reactjs" deployed="https://reactjs.org/" desc="lorem ipsum 1" />
+						<Card handleLink={handleLink} title="Project 2" github="https://github.com/reactjs" deployed="https://reactjs.org/" desc="lorem ipsum 2" />
+						<Card handleLink={handleLink} title="Project 3" github="https://github.com/reactjs" deployed="https://reactjs.org/" desc="lorem ipsum 3" />
+						<Card handleLink={handleLink} title="Homework 1" github="https://github.com/reactjs" deployed="https://reactjs.org/" desc="lorem ipsum 4" />
+						<Card handleLink={handleLink} title="Homework 2" github="https://github.com/reactjs" deployed="https://reactjs.org/" desc="lorem ipsum 5" />
+						<Card handleLink={handleLink} title="Homework 3" github="https://github.com/reactjs" deployed="https://reactjs.org/" desc="lorem ipsum 6" />
 					</section>
 				</section>
 				<section className="about">
