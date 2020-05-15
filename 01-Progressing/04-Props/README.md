@@ -1,31 +1,32 @@
 ## 1.4 Props
 
-# Step 1:
+In this activity we are going to be using props to complete the portfolio application.
 
-Npm install
+# Instructions
 
-# Step 2:
+* Replace your React application's `src` folder with [Unsolved/src](Unsolved/src).
 
-Npm start and investigate what is provided. You are given a repo that loads but none of the links work when clicked. Also none of the projects appear any different than one another.
+* Install node packages by running the command `npm install` from within the directory that contains the package.json file.
 
-# Step 3:
+* Stop the dev server if it is already running. Start the app in dev mode by running `npm start`.
 
-Navigate to /src/App.js. You will notice there is a handleLink() function that hasn't been used yet. You will also notice a number of commented sections labeled "TODO".
+* Open your browser to [localhost:3000](http://localhost:3000) and study the rendered application.
 
-# Step 4:
+* You will notice that the application does render but none of the links are clickable
 
-Add handleLink as a prop to the Header component in App.js. Then, go to the Header component (/src/components/Header/Header.js) and add props as an argument and pass all the props to the Nav using the spread operator (HINT: {...props}).
+* Now navigate to [Unsolved/src/App.js](Unsolved/src/App.js) in . You will notice there is a handleLink() function that hasn't been used yet. You will also notice a number of commented sections labeled "TODO".
+
+* Add handleLink as a prop to the Header component in App.js. Then, go to the Header component (/src/components/Header/Header.js) and add props as an argument and pass all the props to the Nav using the spread operator (HINT: {...props}).
+
+* Next, go to the Nav component (/src/components/Nav/Nav.js) and add props to the argument. Then, add each coresponding prop to each TODO section as specified.
+
+* Then, go back to /src/App.js and add handleLink() as a prop to all Card components.
+
+* Then, go to the Card component (/src/components/Card/Card.js) and do the same as you did with the Nav.
 
 
-# Step 5:
+### Hints
 
-Next, go to the Nav component (/src/components/Nav/Nav.js) and add props to the argument. Then, add each coresponding prop to each TODO section as specified.
+* You can pass entire functions as props. You will most likely need to do this to get the links to work in this particular application
 
-# Step 6:
-
-Then, go back to /src/App.js and add handleLink() as a prop to all Card components.
-
-# Step 7:
-
-Then, go to the Card component (/src/components/Card/Card.js) and do the same as you did with the Nav.
-
+* You can use the spread operator `{...props}` to not have to list all the props being passed in individually.
