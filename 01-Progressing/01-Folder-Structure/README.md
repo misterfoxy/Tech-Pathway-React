@@ -24,15 +24,91 @@ In this activity we are going to implement best practices when it comes to file 
 import "./styles/base.css";
 ```
 
-* Next, go to the Nav component (/src/components/Nav/Nav.js) and add props to the argument. Then, add each coresponding prop to each TODO section as specified.
+* Your rendered application should now display a larger version of the text "Hello World".
 
-* Then, go back to /src/App.js and add handleLink() as a prop to all Card components.
+* Now create a new folder within [Unsolved/src/](Unsolved/src/) called "components".
 
-* Then, go to the Card component (/src/components/Card/Card.js) and do the same as you did with the Nav.
+* We are going to add the following components to that folder:
 
+	* Header
 
-### Hints
+	* Nav
 
-* You can pass entire functions as props. You will most likely need to do this to get the links to work in this particular application
+	* Footer
 
-* You can use the spread operator `{...props}` to not have to list all the props being passed in individually.
+There are a few different ways we can approach this.
+
+1. We can simply create a .js file for each. For example:
+
+	* [Unsolved/src/components/Header.js](Header.js)
+
+	* [Unsolved/src/components/Nav.js](Nav.js)
+
+	* [Unsolved/src/components/Footer.js](Footer.js)
+
+2. We can create folders for each. This is helpful in organizing your folder so if you add CSS later on, you can have the CSS in the same folder as your component. You can name the javascript files `index.js` so that you can import the folder.
+
+	* [Unsolved/src/components/Header/index.js](Unsolved/src/components/Header/index.js)
+
+	* [Unsolved/src/components/Nav/index.js](Unsolved/src/components/Nav/index.js)
+
+	* [Unsolved/src/components/Footer/index.js](Unsolved/src/components/Footer/index.js)
+
+And then import them like so:
+
+	```
+	import Header "./components/Header";
+	import Nav "./components/Nav";
+	import Footer "./components/Footer";
+	```
+
+You can also name the files by the name of their component within the folder of the same name.
+
+	* [Unsolved/src/components/Header/Header.js](Unsolved/src/components/Header/Header.js)
+
+	* [Unsolved/src/components/Nav/Nav.js](Unsolved/src/components/Nav/Nav.js)
+
+	* [Unsolved/src/components/Footer/Footer.js](Unsolved/src/components/Footer/Footer.js)
+
+	* And then:
+
+	```
+	import Header "./components/Header/Header.js";
+	import Nav "./components/Nav/Nav.js";
+	import Footer "./components/Footer/Footer.js";
+	```
+	
+3. Or you can have the best of both worlds by doing the last method but adding a `index.js` file to the folder with the following code:
+
+	* [Unsolved/src/components/Header/index.js](Unsolved/src/components/Header/index.js)
+	```
+	export { default } from "./Header";
+	```
+
+	* [Unsolved/src/components/Nav/index.js](Unsolved/src/components/Nav/index.js)
+	```
+	export { default } from "./Nav";
+	```
+
+	* [Unsolved/src/components/Footer/index.js](Unsolved/src/components/Footer/index.js)
+	```
+	export { default } from "./Footer";
+	```
+
+* Now, create the code within each component. For example:
+
+```
+import React from "react";
+
+function Header() {
+	return (
+		<header>
+			<h1>Header</h1>
+		</header>
+	)
+}
+
+export default Header;
+```
+
+* Now, replace the `<h1>Hello World</h1>` in [Unsolved/src/App.js](Unsolved/src/App.js) with the 3 components that you just created.

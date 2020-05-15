@@ -1,9 +1,16 @@
 import React from "react";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import "./styles/base.css";
 
 function App() {
 	return (
-		<h1>Hello World!</h1>
+		<>
+			<Header />
+			<Nav />
+			<Footer />
+		</>
 	);
 }
 
