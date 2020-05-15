@@ -18,6 +18,14 @@ In this activity we are going to convert HTML to ReactJS using JSX Syntax.
 
 * Using those as a reference, reproduce the same thing by using JSX syntax.
 
+* NOTEYou do not need to create components for this activity, although it is a bonus if time permits.
+
 ### Hints
 
-* You can use Fragements to let you group child nodes to create a single parent level element without adding extra nodes to the DOM. See reference: [React Fragments](https://reactjs.org/docs/fragments.html)
+* You can use Fragments to let you group child nodes to create a single parent level element without adding extra nodes to the DOM. To learn more, go to section on [Fragments](https://reactjs.org/docs/fragments.html) in React's Documentation.
+
+* Remember to use `className` instead of `class`.
+
+### Bonus
+
+* Create components for each of the sections on the page.
