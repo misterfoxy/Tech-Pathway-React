@@ -4,9 +4,11 @@ In this activity we are going to be using props to complete the portfolio applic
 
 # Instructions
 
-* Replace your React application's `src` folder with [Unsolved/src](Unsolved/src).
+* If you haven't done so already, create a folder called `reactworkshop` separate from this repository that you can use for all of the activities in this repo.
 
-* Install node packages by running the command `npm install` from within the directory that contains the package.json file.
+* Copy the entire `src` folder with [Unsolved/src](Unsolved/src) and paste it into your `reactworkshop` folder.
+
+* Install node packages if you haven't done so already by running the command `npm install` from within the directory that contains the package.json file.
 
 * Stop the dev server if it is already running. Start the app in dev mode by running `npm start`.
 

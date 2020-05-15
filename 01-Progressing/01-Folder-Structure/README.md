@@ -54,7 +54,7 @@ There are a few different ways we can approach this.
 
 	* [Unsolved/src/components/Footer/index.js](Unsolved/src/components/Footer/index.js)
 
-And then import them like so:
+* And then import them like so:
 
 	```
 	import Header "./components/Header";
@@ -62,7 +62,7 @@ And then import them like so:
 	import Footer "./components/Footer";
 	```
 
-You can also name the files by the name of their component within the folder of the same name.
+* You can also name the files by the name of their component within the folder of the same name.
 
 	* [Unsolved/src/components/Header/Header.js](Unsolved/src/components/Header/Header.js)
 
