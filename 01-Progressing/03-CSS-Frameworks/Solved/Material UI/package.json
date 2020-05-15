@@ -1,9 +1,11 @@
 {
-  "name": "01-folder-structure",
+  "name": "03-css-frameworks",
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
   "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "^3.4.1"
