@@ -1,7 +1,6 @@
 import React from "react";
 import "./nav.css";
 
-// TODO: Add Props to argument in function
 function Nav(props) {
 	const handleScroll = y => {
 		window.scroll({ top: y, left: 0, behavior: "smooth" });
@@ -9,10 +8,8 @@ function Nav(props) {
 
 	return (
 		<nav className="container">
-			{/* TODO: Add handleScroll to John Doe (HINT: onClick={() => handleScroll(0)}) */}
 			<h1><button onClick={() => handleScroll(0)}>John Doe</button></h1>
 			<ul>
-				{/* TODO: Add handleLink through props for each button below (HINT: onClick={() => handleLink("https://google.com/")}) */}
 				<li><button onClick={() => props.handleLink(props.resume)}>Resume</button></li>
 				<li><button onClick={() => props.handleLink(props.github)}>GitHub</button></li>
 				<li><button onClick={() => props.handleLink(props.linkedin)}>LinkedIn</button></li>

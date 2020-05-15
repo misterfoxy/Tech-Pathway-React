@@ -12,13 +12,11 @@ function App() {
 
 	return (
 		<>
-			{/* TODO: Add handleLink props to Header */}
 			<Header handleLink={handleLink} resume="https://google.com/" github="https://github.com/" linkedin="https://linkedin.com/" />
 			<main className="container additional-padding">
 				<section className="portfolio">
 					<h3>Portfolio</h3>
 					<section className="projects">
-						{/* TODO: Add handleLink props to each Card */}
 						<Card handleLink={handleLink} title="Project 1" github="https://github.com/reactjs" deployed="https://reactjs.org/" desc="lorem ipsum 1" />
 						<Card handleLink={handleLink} title="Project 2" github="https://github.com/reactjs" deployed="https://reactjs.org/" desc="lorem ipsum 2" />
 						<Card handleLink={handleLink} title="Project 3" github="https://github.com/reactjs" deployed="https://reactjs.org/" desc="lorem ipsum 3" />
