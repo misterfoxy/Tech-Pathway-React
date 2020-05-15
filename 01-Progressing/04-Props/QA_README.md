@@ -6,57 +6,28 @@ In this activity we are going to be using props to complete the portfolio applic
 
 * If you haven't done so already, create a folder called `reactworkshop` separate from this repository that you can use for all of the activities in this repo.
 
-**START QA NOTES FOR ABOVE**
-- I was able to successfully complete the above exercise.
-
-**END QA NOTES FOR ABOVE**
-
 * Copy the entire `src` folder with [Unsolved/src](Unsolved/src) and paste it into your `reactworkshop` folder.
 
-**START QA NOTES FOR ABOVE**
-- I was able to successfully complete the above exercise.
 
-**END QA NOTES FOR ABOVE**
 
 
 * Install node packages if you haven't done so already by running the command `npm install` from within the directory that contains the package.json file.
 
-**START QA NOTES FOR ABOVE**
-- I was able to successfully complete the above exercise.
-
-**END QA NOTES FOR ABOVE**
 
 
 * Stop the dev server if it is already running. Start the app in dev mode by running `npm start`.
 
-**START QA NOTES FOR ABOVE**
-- I was able to successfully complete the above exercise.
 
-**END QA NOTES FOR ABOVE**
 
 
 * Open your browser to [localhost:3000](http://localhost:3000) and study the rendered application.
 
-**START QA NOTES FOR ABOVE**
-- I was able to successfully complete the above exercise.
-
-**END QA NOTES FOR ABOVE**
 
 
 * You will notice that the application does render but none of the links are clickable
 
-**START QA NOTES FOR ABOVE**
-- I was able to successfully complete the above exercise.
-
-**END QA NOTES FOR ABOVE**
-
 
 * Now navigate to [Unsolved/src/App.js](Unsolved/src/App.js). You will notice there is a handleLink() function that hasn't been used just yet. You will also notice a number of commented sections labeled "TODO".
-
-**START QA NOTES FOR ABOVE**
-- I was able to successfully complete the above exercise.
-
-**END QA NOTES FOR ABOVE**
 
 
 * Add handleLink as a prop to the Header component in App.js. Then, go to the Header component [Unsolved/src/components/Header/Header.js](Unsolved/src/components/Header/Header.js) and add props as an argument and pass all the props to the Nav using the spread operator.
@@ -79,19 +50,8 @@ In this activity we are going to be using props to complete the portfolio applic
 
 * Then, go back to [Unsolved/src/App.js](Unsolved/src/App.js) and add handleLink() as a prop to all Card components.
 
-**START QA NOTES FOR ABOVE**
-- I was able to successfully complete the above exercise.
-
-**END QA NOTES FOR ABOVE**
-
 
 * Then, go to the Card component [Unsolved/src/components/Card/Card.js](Unsolved/src/components/Card/Card.js) and do the same as you did with the Nav.
-
-**START QA NOTES FOR ABOVE**
-- I was able to successfully complete the above exercise.
-
-**END QA NOTES FOR ABOVE**
-
 
 
 ### Hints
