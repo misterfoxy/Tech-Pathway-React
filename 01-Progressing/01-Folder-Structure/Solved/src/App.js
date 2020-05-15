@@ -1,18 +1,9 @@
 import React from "react";
-import Header from "./components/Header";
-import Body from "./components/Body";
-import Footer from "./components/Footer";
-import "./main.css";
+import "./styles/base.css";
 
 function App() {
 	return (
-		<>
-			<Header />
-			<main className="container additional-padding">
-				<Body />
-			</main>
-			<Footer />
-		</>
+		<h1>Hello World!</h1>
 	);
 }
 

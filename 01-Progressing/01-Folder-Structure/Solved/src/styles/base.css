@@ -1,5 +1,5 @@
 /**
- * main.css
+ * base.css
  *
  * This is the main stylesheet. Anything global to all pages will exist here.
  */
@@ -14,21 +14,6 @@
 	margin: 0 auto;
 	padding: 0 2rem;
 	box-sizing: border-box;
-}
-  
-/* Larger phones (portrait) and smaller phones (landscape) */
-@media (max-width: 550px) {
-	.container {
-		width: 80%;
-	}
-}
-  
-/* Smaller phones (portrait) */
-@media (max-width: 400px) {
-	.container {
-		width: 85%;
-		padding: 0;
-	}
 }
 
 /* -----------------------------------------------
@@ -125,74 +110,45 @@ p {
  * Links
  * ----------------------------------------------- */
 a {
-	color: #1976d2;
+	color: #2f83d6;
 	text-decoration: none;
 }
 
 a:hover, a:active {
-	color: #0056b3;
+	color: #2568ab;
 	text-decoration: underline;
 }
 
 /* -----------------------------------------------
  * Buttons
  * ----------------------------------------------- */
-.button,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-display: inline-block;
-height: 38px;
-padding: 0 30px;
-color: #555;
-text-align: center;
-font-size: 11px;
-font-weight: 600;
-line-height: 38px;
-letter-spacing: .1rem;
-text-transform: uppercase;
-text-decoration: none;
-white-space: nowrap;
-background-color: transparent;
-border-radius: 4px;
-border: 1px solid #bbb;
-cursor: pointer;
-box-sizing: border-box; }
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.button:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-color: #333;
-border-color: #888;
-outline: 0; }
-.button.button-primary,
-button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
-color: #FFF;
-background-color: #33C3F0;
-border-color: #33C3F0; }
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
-color: #FFF;
-background-color: #1EAEDB;
-border-color: #1EAEDB; }
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+	color: #fff;
+	background-color: #888;
+	outline: 0;
+	display: inline-block;
+	height: 38px;
+	padding: 0 30px;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
+	color: #555;
+	border-color: #888;
+	background-color: transparent;
+	outline: 0;
+}
   
   
 /* -----------------------------------------------
@@ -257,35 +213,20 @@ border-color: #1EAEDB; }
 	margin-left: .5rem;
 	font-weight: normal; }  
 
-/* -----------------------------------------------
- * Clear Fix
- * ----------------------------------------------- */
-
-/* .container::after {
-	content: "";
-	clear: both;
-} */
-  
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
 
-/* Smaller phones (portrait) */
-@media (max-width: 400px) {}
-
-/* Larger phones (portrait) and smaller phones (landscape) */
-@media (max-width: 550px) {}
-
-/* Tablets (portrait) and larger phones (landscape) */
-@media (max-width: 750px) {}
+/* Larger displays */
+@media (max-width: 1200px) {}
 
 /* Desktop and tablets (landscape) */
 @media (max-width: 1000px) {}
 
-/* Larger displays */
-@media (max-width: 1200px) {}
+/* Tablets (portrait) and larger phones (landscape) */
+@media (max-width: 768px) {}
+
+/* Larger phones (portrait) and smaller phones (landscape) */
+@media (max-width: 567px) {}
+
+/* Smaller phones (portrait) */
+@media (max-width: 400px) {}

@@ -14,15 +14,15 @@ In this activity we are going to be using props to complete the portfolio applic
 
 * You will notice that the application does render but none of the links are clickable
 
-* Now navigate to [Unsolved/src/App.js](Unsolved/src/App.js) in . You will notice there is a handleLink() function that hasn't been used yet. You will also notice a number of commented sections labeled "TODO".
+* Now navigate to [Unsolved/src/App.js](Unsolved/src/App.js). You will notice there is a handleLink() function that hasn't been used just yet. You will also notice a number of commented sections labeled "TODO".
 
-* Add handleLink as a prop to the Header component in App.js. Then, go to the Header component (/src/components/Header/Header.js) and add props as an argument and pass all the props to the Nav using the spread operator (HINT: {...props}).
+* Add handleLink as a prop to the Header component in App.js. Then, go to the Header component [Unsolved/src/components/Header/Header.js](Unsolved/src/components/Header/Header.js) and add props as an argument and pass all the props to the Nav using the spread operator.
 
-* Next, go to the Nav component (/src/components/Nav/Nav.js) and add props to the argument. Then, add each coresponding prop to each TODO section as specified.
+* Next, go to the Nav component [Unsolved/src/components/Nav/Nav.js](Unsolved/src/components/Nav/Nav.js) and add props to the argument. Then, add each coresponding prop to each TODO section as specified.
 
-* Then, go back to /src/App.js and add handleLink() as a prop to all Card components.
+* Then, go back to [Unsolved/src/App.js](Unsolved/src/App.js) and add handleLink() as a prop to all Card components.
 
-* Then, go to the Card component (/src/components/Card/Card.js) and do the same as you did with the Nav.
+* Then, go to the Card component [Unsolved/src/components/Card/Card.js](Unsolved/src/components/Card/Card.js) and do the same as you did with the Nav.
 
 
 ### Hints
