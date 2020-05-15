@@ -1,3 +1,23 @@
+/**
+ * app.css
+ *
+ * This is for more page-specific styles.
+ */
+
+main {
+	margin-top: 2.5rem !important;
+}
+
+main .portfolio, main .about, main .contact {
+	margin-bottom: 4.5rem;
+}
+
+header {
+	background-color: #2f83d6;
+	box-shadow: 0 0.25rem 0.75rem 0 rgba(0, 0, 0, 0.2);
+	width: 100%;
+}
+
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -55,4 +75,18 @@ nav h1 a:hover {
 
 nav a:hover {
 	color: #efefef;
+}
+
+footer {
+	color: #797979;
+	font-size: 1.25rem;
+	margin-top: 2.75rem !important;
+}
+
+footer a {
+	color: #797979;
+}
+
+footer p {
+	text-align: center;
 }
