@@ -73,9 +73,9 @@ There are a few different ways we can approach this.
 	* And then:
 
 	```
-	import Header "./components/Header/Header.js";
-	import Nav "./components/Nav/Nav.js";
-	import Footer "./components/Footer/Footer.js";
+	import Header from "./components/Header";
+	import Nav from "./components/Nav";
+	import Footer from "./components/Footer";
 	```
 	
 3. Or you can have the best of both worlds by doing the last method but adding a `index.js` file to the folder with the following code:

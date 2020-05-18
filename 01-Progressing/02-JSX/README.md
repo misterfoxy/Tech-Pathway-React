@@ -12,11 +12,11 @@ In this activity we are going to convert HTML to ReactJS using JSX Syntax.
 
 * Stop the dev server if it is already running. Start the app in dev mode by running `npm start`.
 
-* Now open and study the included files in the [Images](Images) folder. You are provided a screenshot and an HTML file.
+* Now open and study the included files in the [Unsolved/00-References](Unsolved/00-References) folder. You are provided a screenshot and an HTML file.
 
-![Portfolio Sample](Images/01-Portfolio.png)
+![Portfolio Sample](Unsolved/00-References/01-Portfolio.png)
 
-* Using those as a reference, reproduce the same thing by using JSX syntax.
+* Using those as a guide, reproduce the same thing in React with JSX syntax.
 
 * NOTEYou do not need to create components for this activity, although it is a bonus if time permits.
 
