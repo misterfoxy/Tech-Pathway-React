@@ -4,19 +4,27 @@
 
 	* Material UI
 	* Reactstrap
-	* Foundation
-	* Materialize
+	* React-Foundation
+	* React-Materialize
+
+* Follow the directions using the links below to install the framework.
+
+* Once you've done so, add at least one built-in component your application by using the framework's documentation.
+
+	* Examples: Navbar, Card, Jumbotron, etc.
 
 ### Material UI
 
-* Go to the [Material UI Documentation Installation Page](https://material-ui.com/getting-started/installation/).
-
-* Follow the directions listed on the page to install the framework.
+* [Material UI Documentation - Installation](https://material-ui.com/getting-started/installation/)
 
 ### Reactstrap
 
-### Foundation
+* [Reactstrap Documentation - Installation](https://reactstrap.github.io/)
 
-### Materialize
+### React-Foundation
 
-* Add a navbar and some project cards
+* [React-Foundation GitHub - Installation](https://github.com/digiaonline/react-foundation#install)
+
+### React-Materialize
+
+* [React-Materialize GitHub - Installation](https://github.com/react-materialize/react-materialize#install)
