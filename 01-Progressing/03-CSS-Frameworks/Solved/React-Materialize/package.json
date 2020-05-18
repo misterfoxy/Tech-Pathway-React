@@ -4,8 +4,10 @@
   "private": true,
   "main": "index.js",
   "dependencies": {
+    "materialize-css": "^1.0.0-rc.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-materialize": "^3.9.1",
     "react-scripts": "^3.4.1"
   },
   "scripts": {

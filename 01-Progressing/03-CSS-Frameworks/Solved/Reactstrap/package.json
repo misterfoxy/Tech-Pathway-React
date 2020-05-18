@@ -4,9 +4,11 @@
   "private": true,
   "main": "index.js",
   "dependencies": {
+    "bootstrap": "^4.5.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "reactstrap": "^8.4.1"
   },
   "scripts": {
     "start": "react-scripts start",

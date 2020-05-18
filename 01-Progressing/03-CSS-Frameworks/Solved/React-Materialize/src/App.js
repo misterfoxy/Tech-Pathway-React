@@ -1,26 +1,15 @@
-import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, NavLink, Container, Row } from "reactstrap";
+import React from "react";
+import "materialize-css";
+import { Navbar, NavItem, Container, Row } from "react-materialize";
 
 function App() {
 	return (
 		<>
-			<Navbar color="dark" dark expand="md">
-				<NavbarBrand href="/">John Doe</NavbarBrand>
-				<Nav navbar className="ml-auto">
-					<NavItem>
-						<NavLink href="#">Resume</NavLink>
-					</NavItem>
-					<NavItem>
-						<NavLink href="#">GitHub</NavLink>
-					</NavItem>
-					<NavItem>
-						<NavLink href="#">LinkedIn</NavLink>
-					</NavItem>
-					<NavItem>
-						<NavLink href="#">Contact</NavLink>
-					</NavItem>
-				</Nav>
+			<Navbar alignLinks="right" brand={<a className="brand-logo" href="#">John Doe</a>}>
+				<NavItem href="#">Resume</NavItem>
+				<NavItem href="#">GitHub</NavItem>
+				<NavItem href="#">LinkedIn</NavItem>
+				<NavItem href="#">Contact</NavItem>
 			</Navbar>
 			<Container>
 				<Row>
@@ -35,8 +24,6 @@ function App() {
 				</Row>
 				<Row>
 					<h3>Contact</h3>
-				</Row>
-				<Row>
 					<ul>
 						<li>Email: <a href="mailto:john@john.com">john@john.com</a></li>
 						<li>Phone: <a href="tel:(123) 456-7890">(123) 456-7890</a></li>
