@@ -1,42 +1,33 @@
-# Lesson Plan: @TODO Descriptive and Professional Title
+# Lesson Plan: Instructional Workshop - React.js
 
 ## Overview 
 
-@TODO Write a two or three-sentence overview of the lesson plan.
+The goal of these activities is to help instructional staff get practice with React basics and respond to common student questions.
+
 
 ## Instructor Notes
 
-* Complete activities `XX-Ins_Demo-Title` through `XX-Stu_Activity-Title`
-
-* @TODO Each Instructor Note block begins with the bullet above, outlining what activities will be covered during class.
-
-* @TODO Empathize with the instructor. If you only had one hour to prepare for class, what are the things you would want to know up front? What are the potential pitfalls in class? Where are students going to get hung up? 
-
-* @TODO Set the instructor up for success.
 
 
 ## Learning Objectives
 
-* @TODO Bullet the learning objectives for the lesson plan. Refer to your Activity Planner.
+* Apply best practices to create their own file structures 
 
-* @TODO When writing learning objectives, refer to this list of measurable verbs used to assess learning outcomes https://www.clinton.edu/curriculumcommittee/listofmeasurableverbs.cxml
+* Reproduce an HTML and JavaScript front-end in JSX syntax 
 
-* @TODO For example, "Initialize projects and install third-party packages using npm"
+* Implement CSS Frameworks
 
-* @TODO If it's a concept and not a demonstrable skill, use "explain". For example, "Explain the client-server model"
+* Use props to complete an application
 
-* @TODO Don't use "Understand..." as it is not measurable
 
-* @TODO Aim for at least 3 points, but no more than 6. If you find yourself listing more than six points you may need to rethink the scope of your points or the lesson plan itself. 
+## Repository
+
+[Instructional Staff Workshop: React.js - Repository](https://github.com/dleonhardt/Instructor-Workshop-React)
 
 
 ## Slides
 
-[title-of-slide-deck](URL)
-
-@TODO If there's no slide deck associated with this lesson plan:
-
-n/a
+[Instructional Staff Workshop: React.js - Slideshow](https://docs.google.com/presentation/d/1rgvTvRBBLJwFMTGYSffTqC0R1BC2P6COkI2wtq8KZdA/edit#slide=id.g3d5b74d82e_0_0)
 
 
 ## Time Tracker
@@ -80,15 +71,53 @@ n/a
 
 
 
-### Student Do: Activity (XX mins) 
+### Everyone Do: Apply best practices when creating file structures (10 mins)
 
-* Direct students to the instructions found in [activity-directory-name](URL):
+* Direct everyone to the instructions found in [01-Folder-Structure/README.md](01-Folder-Structure/README.md)
 
-```md
 
-@TODO insert instructions here; add indentation as needed to prevent render as Markdown in this doc
+### Instructor Do: Review (5 mins)
 
-```
+
+
+### Everyone Do: Reproduce an HTML and JavaScript front-end in JSX syntax (10 mins)
+
+* Direct everyone to the instructions found in [02-JSX/README.md](02-JSX/README.md)
+
+* There are also HTML and JavaScript files to be used as a reference found in [02-JSX/Unsolved/00-References](02-JSX/Unsolved/00-References)
+
+
+### Instructor Do: Review (5 mins)
+
+
+
+## PULSE CHECK (5 mins)
+
+There will be a poll provided to see how everyone is doing so far.
+
+
+### Everyone Do: Implement CSS Frameworks (20 mins) 
+
+
+* Direct everyone to the instructions found in [03-CSS-Frameworks/README.md](03-CSS-Frameworks/README.md)
+
+
+
+### Instructor Do: Review (5 mins)
+
+
+
+### Everyone Do: Use props to complete an application (20 mins) 
+
+
+* Direct everyone to the instructions found in [04-Props/README.md](04-Props/README.md)
+
+
+
+### Instructor Do: Review (5 mins)
+
+
+
 
 
 ### Instructor Do: Review (XX mins)
@@ -118,6 +147,3 @@ n/a
 
 
 @TODO Repeat as necessary
-
-@TODO Don't forget the break
-## BREAK (15 or 40 mins) 

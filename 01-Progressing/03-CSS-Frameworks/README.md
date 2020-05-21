@@ -1,16 +1,24 @@
-## 1.3 CSS Frameworks
+# 1.3 CSS Frameworks
 
 In this activity we are going to install one of the popular CSS Frameworks and utilize their built-in components in an application.
 
-# Instructions
+## Folder Setup & Installation
 
-* If you haven't done so already, create a folder called `reactworkshop` separate from this repository that you can use for all of the activities in this repo.
+If you have done this in a previous exercise, you may be able to skip some steps below such as the creation of the folder and 
+
+* Create a folder called `reactworkshop` separate from this repository that you can use for all of the activities throughout the lesson.
+
+* Since these activities were all built using Create React App all we will need to do is `npm install` once and then copy and paste the `src` folders for each.
+
+	* NOTE: You do NOT need to run Create React App in order to do these exercises. All you will need to do is install the dependencies in the provided node package.json file.
 
 * Copy the entire `src` folder with [Unsolved/src](Unsolved/src) and paste it into your `reactworkshop` folder.
 
-* Install node packages if you haven't done so already by running the command `npm install` from within the [Unsolved/src](Unsolved/src) folder.
+* Install node packages by running the command `npm install` from within the [Unsolved/src](Unsolved/src) folder.
 
 * Stop the dev server if it is already running. Start the app in dev mode by running `npm start`.
+
+## Exercise
 
 * Using the starter code in the [Unsolved](Unsolved) folder, install one of the CSS Frameworks of your choice listed below.
 
